@@ -12,6 +12,12 @@ Cet exercice a pour objectifs :
 
 ## Mise à jour de l'ancien site
 * Avant de préparer une migration, il est indispensable de mettre à jour l'ancien site. Voici les étapes à suivre pour le coeur et les modules (l'exemple fourni est probablement pas à jour, à vous de vérifier si des mises à jour du coeur ou des modules contrib sont nécessaires)
+* * Sauvegarder le site (DB + Fichiers) manuellement (en plus des backups périodiques)
+* * Mettre le site en mode maintenance via Configuration > Mode maintenance pour empêcher les utilisateurs de se connecter et de faire des modifications le temps le mise à jour
+* * Faire la mise à jour des fichiers par l'interface graphique via Rapports > Mise à jours disponibles ou en remplaçant les fichiers sur le serveur
+* * En étant connecter avec l'utilisateur 1 (compte admin crée pendant l'installation), lancer le script update.php se trouvant à la racine du site pour faire les mises à jours de base de données
+* * Tester rapidement le site
+* * Supprimer le mode maintenance si tout s'est bien passé.
 
 
 ## Création d'un site drupal 8 avec composer :
