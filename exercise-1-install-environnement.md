@@ -31,7 +31,8 @@ composer create-project drupal-composer/drupal-project:8.x-dev ./ --stability de
 * Suivre les différentes étapes d'installation de Drupal
 
 ## Gestion des modules
-* Aller sur la page admin/modules de l'ancien site pour vérifier quels sont les modules utilisés 
+* Aller sur la page admin/modules de l'ancien site pour vérifier quels sont les modules utilisés .
+* Vous pouvez vous aider de ce module : https://www.drupal.org/project/upgrade_status 
 * Vérifier sur drupal.org si les modules existent en version drupal 8 
 * Pour ceux qui existe, les installer sur le nouveau site avec composer (penser à adapter le nom du module de la commande et à enlever les crochets):
 ```
